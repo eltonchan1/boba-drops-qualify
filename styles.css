@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2em;
+}
+
+body {
+    padding: 2em;
+    font-family: 'Jetbrains Mono', monospace;
+    background: #2d272f;
+    color: #d9d4d8;
+}
+
+a {
+    color: #d9d4d8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.section h2 {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.preview {
+    flex: 0 1 315px;
+}
+
+.preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.preview h3 {
+    margin: 10px 0 5px;
+}
+
+.preview p {
+    margin: 0;
+}
